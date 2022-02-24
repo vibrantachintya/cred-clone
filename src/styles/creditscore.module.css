@@ -1,0 +1,183 @@
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+  background: rgba(22, 21, 23, 0.2);
+  box-shadow: rgb(22 21 23 / 10%) 0px 0px 15px 0px;
+  height: 75px;
+  backdrop-filter: blur(20px);
+}
+
+.header_inner {
+  margin: auto;
+  padding: 0px 30px;
+  max-width: 1000px;
+  height: 75px;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.header_download {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 32px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: gilroy-semibold;
+  cursor: pointer;
+  padding: 12px 32px;
+  outline: none;
+}
+
+.section_main {
+  background: -webkit-radial-gradient(
+    left top,
+    rgb(154, 84, 235),
+    rgb(97, 42, 211)
+  );
+  padding: 180px 0px;
+}
+
+.section_main > div {
+  display: flex;
+  width: 1024px;
+  margin: 0px auto;
+  color: white;
+  justify-content: space-between;
+}
+
+.section_main > div > div:nth-child(1) {
+  width: 55%;
+  margin-top: 40px;
+}
+
+.section_main > div > div:nth-child(1) > h1 {
+  font-size: 84px;
+  line-height: 72px;
+  letter-spacing: -2.5px;
+  font-family: gilroy-bold;
+  opacity: 0.9;
+  margin: 15px 0px;
+}
+
+.section_main > div > div:nth-child(1) > p {
+  font-size: 24px;
+  opacity: 0.8;
+  line-height: 1.4;
+}
+.section_main > div > div:nth-child(1) > div {
+  display: inline-flex;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  pointer-events: auto;
+  text-align: center;
+  cursor: pointer;
+  outline: 0px;
+  border-radius: 40px;
+  font-family: gilroy-semibold;
+  letter-spacing: 0.69px;
+  background: rgb(0, 0, 0);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 15px 50px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.section_main > div > div:nth-child(2) {
+  width: 40%;
+}
+
+.section_main > div > div:nth-child(2) > img {
+  width: 100%;
+}
+
+.section_form {
+  background: black;
+  padding: 200px 0px;
+}
+
+.section_container {
+  width: 46%;
+  margin-left: 10%;
+}
+
+.form_head {
+  font-size: 27px;
+  font-family: gilroy-bold;
+  color: white;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.form_text {
+  font-size: 17px;
+  color: white;
+  opacity: 0.6;
+  margin-bottom: 40px;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.input_container {
+  width: 48%;
+  height: 65px;
+  border-radius: 6px;
+  border: 1px solid rgb(86, 86, 86);
+  display: inline-flex;
+  position: relative;
+  background: rgb(26, 26, 26);
+}
+
+.input_container input {
+  opacity: 0.9;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 0.5px;
+  padding: 33px 17px 13px;
+  background: transparent;
+  width: 100%;
+}
+
+.input_container input:focus + label {
+  transform: scale(0.9);
+  transition: 0.1s all ease;
+  top: 10px;
+  left: 13px;
+}
+
+.input_container label {
+  color: white;
+  opacity: 0.6;
+  transform: translateY(-50%);
+  top: 50%;
+  left: 17px;
+  position: absolute;
+}
+
+.confirm_button {
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  outline: 0px;
+  padding: 18px 120px;
+  border-radius: 40px;
+  font-family: gilroy-bold;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  overflow: hidden;
+}

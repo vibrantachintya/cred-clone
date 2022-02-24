@@ -1,0 +1,126 @@
+.section_main {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(17, 13, 13, 0.47) 50%,
+    #212426 100%
+  );
+  background: rgb(21, 20, 22);
+  padding: 60px 0px 50px 160px;
+}
+
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.main_container > div:nth-child(1) {
+  width: 50%;
+}
+
+.main_container > div:nth-child(1) > h1 {
+  font-size: 70px;
+  line-height: 1.4;
+  color: white;
+  font-family: gilroy-bold;
+  opacity: 0.8;
+  margin: 0px;
+}
+
+.main_container > div:nth-child(1) > p {
+  background-image: linear-gradient(
+    to left,
+    rgb(255, 169, 72),
+    rgb(251, 114, 114)
+  );
+  font-size: 35px;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 10px 0px;
+}
+
+.main_container > div:nth-child(1) > div {
+  background-image: linear-gradient(
+    135deg,
+    rgb(38, 69, 140),
+    rgb(66, 107, 182)
+  );
+  color: #f3f3f3;
+  display: inline-flex;
+  padding: 15px 10px;
+  width: 200px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-family: gilroy-bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.main_container > div:nth-child(1) > div > img {
+  width: 18px;
+  display: flex;
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+.main_container > div:nth-child(1) > span {
+  display: block;
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+  opacity: 0.8;
+}
+
+.main_container > div:nth-child(2) {
+  width: 50%;
+}
+
+.main_container > div:nth-child(2) img {
+  width: 100%;
+}
+
+.section_banks {
+  padding: 100px 200px 115px;
+  background: rgb(21, 20, 22);
+}
+
+.banks_container {
+  background: linear-gradient(
+    173.76deg,
+    rgba(255, 255, 255, 0.04) -1.24%,
+    rgba(255, 255, 255, 0.01) 96.5%
+  );
+  max-width: 1350px;
+  border-radius: 69px;
+  padding: 0 40px 80px;
+  text-align: center;
+}
+
+.banks_head {
+  font-family: gilroy-bold;
+  font-size: 35px;
+  opacity: 0.8;
+  color: rgb(248, 247, 247);
+  padding: 160px 0px 110px;
+}
+
+.banks {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+}
+
+.banks > div {
+  margin: 30px 0px;
+}
+
+.banks > div > img {
+  width: 148px;
+}
+
+.banks > div > p {
+  font-family: gilroy-bold;
+  font-size: 18px;
+  color: white;
+  opacity: 0.8;
+}

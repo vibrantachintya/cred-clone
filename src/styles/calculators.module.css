@@ -1,0 +1,29 @@
+.section_calculators {
+  margin: 150px auto;
+  max-width: 1080px;
+  padding: 0px 30px;
+}
+
+.calculators_heading {
+  font-family: gilroy-bold;
+  font-size: 48px;
+  color: rgb(31, 31, 31);
+  letter-spacing: 0px;
+  line-height: 46.8px;
+  margin-top: 76px;
+}
+
+.calculators_text {
+  margin-top: 30px;
+  max-width: 70%;
+  line-height: 21px;
+  font-size: 16px;
+}
+
+.calculators_containers {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 20px;
+}

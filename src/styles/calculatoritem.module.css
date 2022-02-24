@@ -1,0 +1,35 @@
+.container {
+  height: 200px;
+  background-size: cover;
+  background-position: right bottom;
+  border-radius: 20px;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.category {
+  font-family: gilroy-bold;
+  font-size: 11px;
+  color: black;
+  opacity: 0.6;
+}
+
+.title {
+  font-family: gilroy-bold;
+  font-size: 24px;
+  color: white;
+  margin-top: 5px;
+}
+
+.button {
+  display: inline-block;
+  padding: 13px 22px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 28px;
+  font-family: gilroy-bold;
+  font-size: 12px;
+}

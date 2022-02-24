@@ -1,0 +1,44 @@
+.carousel_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  min-height: 160px;
+}
+
+.carousel_div {
+  text-align: center;
+  max-width: 800px;
+  display: none;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.carousel_div > div:nth-child(1) {
+  padding-bottom: 40px;
+}
+
+.carousel_highlighted {
+  display: block;
+  transform: translate3d(0%, 0px, 0px);
+  transition: transform 1s;
+}
+
+.ticker_container {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.ticker {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  background: grey;
+  opacity: 0.6;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.highlighted {
+  background: white;
+}

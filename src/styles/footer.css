@@ -1,0 +1,126 @@
+.footer-container {
+  background: rgb(22, 21, 23);
+  text-align: left;
+  color: white;
+}
+
+.footer-calculators {
+  background: rgb(36, 36, 36);
+  padding: 100px 200px;
+}
+
+.footer-calculators > div > a:first-child {
+  font-family: gilroy-bold;
+  padding: 0px;
+  border: none;
+}
+
+.footer-calculators > div > a {
+  font-family: gilroy-regular;
+  font-size: 18px;
+  letter-spacing: 0.75px;
+  line-height: 34px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  opacity: 0.7;
+  padding: 0px 12px;
+  border-right: 1px solid rgb(246, 246, 246);
+  text-decoration: none;
+}
+
+.footer-calculators > div > a:last-child {
+  border: none;
+}
+
+.margin-top {
+  margin-top: 20px;
+}
+
+.footer-lower {
+  padding: 100px 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 70px;
+}
+
+.footer-lower-1 {
+  margin-right: 50px;
+}
+
+.footer-lower-1 > img:nth-child(1) {
+  width: 168px;
+}
+
+.footer-lower-1 > img:nth-child(2) {
+  width: 405px;
+  margin: 100px 0px 40px;
+}
+
+.footer-lower-1 > div:nth-child(3) {
+  font-family: gilroy-bold;
+  letter-spacing: 0.75px;
+  line-height: 22px;
+  margin-bottom: 24px;
+  opacity: 0.9;
+  font-size: 21px;
+}
+
+.footer-lower-1 > div:nth-child(4) {
+  font-family: gilroy-regular;
+  font-size: 18px;
+  letter-spacing: 0.75px;
+  line-height: 33px;
+  margin-bottom: 75px;
+  opacity: 0.7;
+  max-width: 500px;
+}
+
+.footer-lower-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 150px;
+}
+
+.footer-lower-2 > div > div {
+  font-family: gilroy-bold;
+  font-size: 18px;
+  letter-spacing: 0.75px;
+  opacity: 0.9;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.footer-lower-2 > div > div > a {
+  color: inherit;
+  font-family: gilroy-regular;
+  font-size: 18px;
+  letter-spacing: 0.75px;
+  line-height: 33px;
+  margin-bottom: 10px;
+  display: block;
+  opacity: 0.7;
+}
+
+.footer-lower-3 {
+  opacity: 0.4;
+}
+
+.footer-lower-4 > a {
+  font-family: gilroy-regular;
+  font-size: 18px;
+  letter-spacing: 0.75px;
+  line-height: 34px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  opacity: 0.7;
+  padding: 0px 15px;
+  border-right: 1px solid rgb(246, 246, 246);
+}
+
+.footer-lower-4 > a:first-child {
+  padding: 0px 15px 0px 0px;
+}
+
+.footer-lower-4 > a:last-child {
+  border: none;
+}
